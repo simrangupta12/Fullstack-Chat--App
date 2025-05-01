@@ -1,44 +1,40 @@
-# 💬 Fullstack Real-Time Chat Application
+# Fullstack Chat Application
 
-This is a Fullstack Real-Time Chat App built using **MERN Stack** (MongoDB, Express.js, React.js, Node.js) and **Socket.IO** for real-time messaging.  
-It allows users to **register**, **login**, **chat one-on-one**, **send and receive messages instantly**, and **upload profile pictures**.
+This is a **Fullstack Chat Application** built with **MERN stack** (MongoDB, Express.js, React, Node.js) and real-time communication using **Socket.IO**. 
 
----
-
-## 🚀 Tech Stack Used
-
-### Frontend:
-- React.js
-- Tailwind CSS
-- DaisyUI (UI components)
-- Zustand (state management)
-- Axios (API calls)
-- Socket.IO-client (for real-time communication)
-
-### Backend:
-- Node.js
-- Express.js
-- MongoDB with Mongoose
-- Socket.IO-server (for real-time communication)
-- BcryptJS (password hashing)
-- JSON Web Token (JWT authentication)
-- Cloudinary (image storage)
-- Cookie-parser
-- Dotenv (for environment variables)
+It allows users to sign in, create accounts, and chat in real-time with other users.
 
 ---
 
-## ✨ Key Features
+## 🚀 Technologies Used
 
-- 🔹 User Registration and Login with JWT authentication
-- 🔹 Real-time 1-on-1 messaging using WebSockets
-- 🔹 Password encryption for security
-- 🔹 Profile picture upload via Cloudinary
-- 🔹 Protected Routes (only authenticated users can chat)
-- 🔹 Responsive and modern UI using Tailwind and DaisyUI
-- 🔹 Persistent login using HTTP-only cookies
+- **Frontend**:
+  - **React.js**: For building the user interface.
+  - **Tailwind CSS**: For styling the app in a simple and responsive way.
+  - **Zustand**: For state management.
+  - **DaisyUI**: For ready-to-use UI components that work well with Tailwind CSS.
+  
+- **Backend**:
+  - **Node.js** & **Express.js**: For handling HTTP requests and building the server.
+  - **MongoDB**: For storing user data and chat messages.
+  - **Socket.IO**: For real-time communication between clients and the server.
+  - **Mongoose**: For MongoDB object modeling and easier data manipulation.
+  
+- **Other Libraries**:
+  - **JWT (JSON Web Token)**: For user authentication and secure login.
+  - **bcryptjs**: For password hashing.
+  - **dotenv**: For managing environment variables.
+  - **cookie-parser**: For handling cookies.
+  - **Cloudinary**: For image uploading (if applicable).
 
 ---
 
-## 📦 Project Structure
+## 💻 How to Run the Project Locally
 
+### 1. **Clone the repository**
+
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/simrangupta12/Fullstack-Chat--App.git
+cd Fullstack-Chat--App
